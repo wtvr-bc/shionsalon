@@ -47,6 +47,23 @@ body {
 .fa-facebook:hover {
     opacity: 1;
 }
+@media (max-width: 852px) {
+    .header-menu {
+        height: 80px;
+        font-size: 10px;
+        line-height: 80px;
+    }
+    .english {
+        justify-content: space-evenly;
+        list-style: none;
+        font-size: 7px;
+    }
+    .fa {
+        font-size: 13px;
+        padding: 5px;
+    }
+}
+
 .titles {
     background-image: url("img/salon_kitayamato.jpg");
     background-size: cover;
@@ -178,6 +195,81 @@ body {
     font-size: 40px;
     letter-spacing: 10px;
 }
+@media (max-width: 852px) {
+    .titles {
+        height: 500px;
+    }
+    .titlelink {
+        letter-spacing: 5px;
+        line-height: 500px;
+    }
+    .option h3 {
+        font-size: 20px;
+        font-family: cursive;
+        position: relative;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        top: -90px;
+        color: rgb(17, 17, 17);
+    }
+    .special {
+        height: 600px;
+    }
+    .special-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background: black;
+        width: 60%;
+        height: 400px;
+        opacity: 0.5;
+    }
+    .special-menu h2, p {
+        display: flex;
+    }
+    .special-menu h2 {
+        font-size: 30px;
+    }
+    .staff h1 {
+        margin: 70px;
+    }
+    .members {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .member {
+        width: 25%;
+        margin: 10px 40px;
+    }
+    .contact {
+        height: 600px;
+        margin-top: 100px;
+    }
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        color: white;
+        height: 600px;
+        /* width: 30%; */
+        opacity: 0.7;
+        font-family: cursive;
+    }
+    .contact-info h1 {
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    .contact-info h2 {
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
+}
 
 footer {
     background: black;
@@ -190,4 +282,12 @@ footer {
 footer p {
     line-height: 100px;
     
+}
+@media (max-width: 852px) {
+    footer {
+        margin-top: 0px;
+    }
+    footer p {
+        font-size: 15px;
+    }
 }
